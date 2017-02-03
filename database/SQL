@@ -1,0 +1,22 @@
+/* name this database: applify */
+
+CREATE TABLE socks (
+    id INTEGER PRIMARY KEY AUTO_INCREMENT,
+    name TEXT,
+    platform TEXT,
+    price TEXT,
+    category TEXT,
+    );
+
+/* access MySQL/MariaDB from the Terminal - Mac only:
+
+cd /Applications/XAMPP/xamppfiles/bin;./mysql --user=root --password=
+
+SHOW DATABASES;
+
+USE sockmarket
+
+   -- type SQL queries --
+
+QUIT
+*/
