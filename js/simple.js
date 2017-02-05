@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-$("#sockform").on("submit", function(e) {
+$("#appform").on("submit", function(e) {
 
 	$.ajax({
 		url:  "simple.php",

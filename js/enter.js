@@ -2,7 +2,7 @@ $(document).ready(function() {
 
 $("#response").hide();
 
-$("#sockform").on("submit", function(e) {
+$("#appform").on("submit", function(e) {
     e.preventDefault();
 
 	$.ajax({

@@ -118,7 +118,7 @@ input[type='submit']:focus {
 /* media queries */
 
 @media screen and ( max-width: 700px ) {
-	body { background: #8AA8B0; }
+	body { background: #2C3E50; }
 	#container {
 		margin: 10px auto;
 		padding: 10px;
